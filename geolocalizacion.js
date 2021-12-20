@@ -21,7 +21,7 @@ function mostrar(posicion) {
   let geolocalizacion = document.getElementById("ubicacion");
   let latitud = posicion.coords.latitude;
   let longitud = posicion.coords.longitude;
-  let urlMap = "https://maps.googleapis.com/maps/api/staticmap?center="+latitud+ "," + longitud+ "&zoom=16&size=400x400&sensor=false&makers="+latitud+","+longitud+"&key=AIzaSyCvn2hqMm_dxWxVxxQ2-541grmAStjpir0";
+  let urlMap = "https://maps.googleapis.com/maps/api/staticmap?center="+latitud+ "," + longitud+ "&zoom=16&size=400x400&sensor=false&makers="+latitud+","+longitud+"&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
   ubicacion.innerHTML = '<img src="'+urlMap+'" alt="mapa">';
   console.log(urlMap);
  /*  let datos = "";
