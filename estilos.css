@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex: 1;
+    background-color:blue;
+}
+.obtener {
+      
+      background-color: aquamarine;
+      margin-left: 200px;
+      margin-top: 50px;
+      text-align: center;
+      font-size: 50px ;
+}
